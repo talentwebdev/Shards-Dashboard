@@ -41,6 +41,9 @@ const BlogOverview = ({ smallStats }) => (
       <Col lg="8" md="6" sm="12" className="mb-4">
         <UsersOverview />
       </Col>
+      <Col lg="8" md="6" sm="12" className="mb-4">
+        <UsersOverview />
+      </Col>
 
       {/* Users by Device */}
       <Col lg="4" md="6" sm="12" className="mb-4">

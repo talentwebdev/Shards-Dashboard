@@ -40,6 +40,11 @@ const ChangePassword = () => (
                   autoComplete="new-password"
                 />
               </FormGroup>
+              <img
+              className="auth-form__logo d-table mx-auto mb-3"
+              src={require("../images/shards-dashboards-logo.svg")}
+              alt="Shards Dashboards - Change Password Template"
+            />
               <FormGroup>
                 <label htmlFor="exampleInputPassword2">Repeat Password</label>
                 <FormInput
